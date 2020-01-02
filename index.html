@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <title>Dark Light Mode</title>
+        <title>Dark Light Mode</title>
 
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css"></link>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -10,15 +10,15 @@
     </head>
     <body>
 
-        <div>
+
+            <div class="heading">
+                <h1 id="h1">Dark Light Mode Theme</h1>
+            </div>
             <div>
-                <h1>Dark Light Mode Theme</h1>
-            </div class="button" >
-            <button class="darkLight" id="darkLight" onclick="changeImage()">
-                    <i class="material-icons" id="imageChange" >hdr_weak</i>
-            </button>
-        
-        </div>
+                <input type="button" onclick="changeLightMode('white', 'black')" value="Light Mode">
+                <input type="button" onclick="changeLightMode('#15202b', 'white')" value="Dim Mode">
+                <input type="button" onclick="changeLightMode('black', 'white')" value="Dark Mode">
+            </div>
 
 
         <script src="js/app.js"></script>

@@ -1,11 +1,5 @@
-document.getElementById("darkLight").querySelector
 
-
-function changeImage() {
-    var x = document.getElementById("imageChange");
-    if (x.innerHTML === "hdr_weak") {
-      x.innerHTML = "hdr_strong";
-    } else {
-      x.innerHTML = "hdr_weak";
-    }
-  }
+function changeLightMode(BColor, hColor) {
+    document.body.style.background = BColor;
+    let headingElement = document.getElementById("h1").style.color = hColor;
+}  

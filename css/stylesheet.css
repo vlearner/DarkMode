@@ -1,18 +1,10 @@
 h1 {
-text-align: center;
+    text-align: center;
 }
+
 
 body {
-    background-color: black;
-    color: white;
-}
 
-.darkLight {
-    background: white;
-    border-style: none;
-    padding: 0;
-    margin: 0;
-    all: unset;
 }
 
 .material-icons {
