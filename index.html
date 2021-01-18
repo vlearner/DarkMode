@@ -1,26 +1,47 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Dark Light Mode</title>
+<html lang="en">
+<head>
+    <title>Dark Light Mode</title>
 
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css"></link>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+    <link
+        href="https://font  s.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
 
-    </head>
-    <body>
+</head>
+<body>
+
+    <div class="heading">
+        <h1 id="h1">Dark Light Mode Theme</h1>
+    </div>
+    <div>
+        <input
+            type="button"
+            onclick="changeLightMode('#FFFFFF', '#000000')"
+            value="Light Mode">
+
+        <input
+            type="button"
+            onclick="changeLightMode('#15202b', '#FFFFFF')"
+            value="Dim Mode">
+
+        <input
+            type="button"
+            onclick="changeLightMode('#000000', '#FFFFFF')"
+            value="Dark Mode">
+    </div>
+
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a odio iaculis, vestibulum ipsum id,
+            lobortis ipsum. Curabitur erat felis, maximus quis porta at, tempor ullamcorper nibh. Curabitur aliquam
+            dignissim pellentesque. Mauris justo velit, sollicitudin quis ligula non, vulputate eleifend mauris.
+            Suspendisse sodales dui sit amet dui commodo feugiat. Cras fermentum porttitor lectus, in dignissim augue v
+            enenatis ut. In quis tempus arcu, ut varius felis.
+        </p>
+    </div>
 
 
-            <div class="heading">
-                <h1 id="h1">Dark Light Mode Theme</h1>
-            </div>
-            <div>
-                <input type="button" onclick="changeLightMode('white', 'black')" value="Light Mode">
-                <input type="button" onclick="changeLightMode('#15202b', 'white')" value="Dim Mode">
-                <input type="button" onclick="changeLightMode('black', 'white')" value="Dark Mode">
-            </div>
-
-
-        <script src="js/app.js"></script>
-    </body>
+    <script src="js/app.js"></script>
+</body>
 </html>
